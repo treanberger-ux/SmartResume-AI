@@ -15,24 +15,15 @@ def get_ai_response(text, job_description, api_key):
     
     Offre d'emploi :
     {job_description}
-    
     CV du candidat :
     {text}
-    
     Génère un rapport d'évaluation complet, constructif et rigoureux, rédigé exclusivement en français, en suivant exactement cette structure Markdown :
-
-    ### 📊 Rapport d'évaluation générale
-    **Taux de correspondance global :** [Indique un pourcentage estimé entre 0% et 100% basé sur la pertinence des compétences]
-    
-    ---
-
-    ### 🛠️ Analyse des compétences clés
-    * **Points forts du profil :** [Énumère 2 ou 3 compétences clés du candidat qui correspondent parfaitement à l'offre]
-    * **Mots-clés et technologies manquants :** [Identifie les technologies, concepts clés ou outils indispensables de l'offre qui ne figurent pas dans le CV]
-
-    ---
-
-    ### 💡 Recommandations stratégiques d'optimisation
+ Rapport d'évaluation générale
+ Taux de correspondance global :** [Indique un pourcentage estimé entre 0% et 100% basé sur la pertinence des compétences]
+Analyse des compétences clés
+Points forts du profil :** [Énumère 2 ou 3 compétences clés du candidat qui correspondent parfaitement à l'offre]
+Mots-clés et technologies manquants :** [Identifie les technologies, concepts clés ou outils indispensables de l'offre qui ne figurent pas dans le CV]
+Recommandations stratégiques d'optimisation
     1.  **Amélioration du contenu :** [Donne un conseil précis sur la façon de reformuler ou de valoriser une expérience ou un projet universitaire en MIASHS pour mieux coller à l'offre]
     2.  **Mise en valeur technique :** [Conseille l'ajout de projets concrets, par exemple en mentionnant le développement de cette application d'IA (SmartResume AI) développée à l'Université Paris Nanterre]
     """
