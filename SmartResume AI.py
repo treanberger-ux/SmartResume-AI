@@ -2,7 +2,7 @@ import streamlit as st
 import google.generativeai as genai
 import pypdf as pdf
 
-genai.configure(api_key="YOUR_GEMINI_API_KEY")
+genai.configure(api_key="AIzaSyB4wdCGmCppGyByY5P4oOKEul-XWB8EpiU")
 
 def get_ai_response(text, job_description):
     model = genai.GenerativeModel('gemini-pro')
